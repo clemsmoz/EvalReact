@@ -1,0 +1,90 @@
+/* .card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.card-image {
+  width: 120px;
+  height: 180px;
+  margin-right: 16px;
+}
+
+.card-details {
+  flex-grow: 1;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-subtitle {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.card-description {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.card-rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.card-rating-icon {
+  color: #f0c040;
+  margin-right: 4px;
+}
+
+.card-rating-icon.filled {
+  color: #f8d030;
+}
+
+.card-rating-icon:last-child.filled ~ .card-rating-icon {
+  color: #ccc;
+}
+.card-body {
+  background-color: #333;
+  color: white;
+  text-align: center;
+} */
+
+
+
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 1rem; /* add some padding to the card body */
+  text-align: center; /* center the text */
+  background-color: #5e6571; /* dark background color */
+
+}
+
+.card-title {
+  margin-bottom: 1rem; /* add some space between the title and the rest of the content */
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem; /* add some space between the rating and the rest of the content */
+}
+
+.star {
+  font-size: 2rem; /* increase the size of the stars */
+  margin: 0.25rem; /* add some space between the stars */
+}
